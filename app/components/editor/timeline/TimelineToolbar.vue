@@ -23,7 +23,7 @@ import {
   IconPlayerSkipBack,
   IconPlayerSkipForward,
 } from '@tabler/icons-vue';
-import EditableTimecode from '~/components/ui/EditableTimecode.vue';
+import EditableTimecode from '@/components/ui/EditableTimecode.vue';
 
 const props = defineProps<{
   zoomLevel: number;

